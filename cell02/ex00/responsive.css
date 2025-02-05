@@ -1,0 +1,38 @@
+/* รีเซ็ตค่าเริ่มต้น */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    height: 100vh; /* ให้ตารางครอบคลุมทั้งหน้าจอ */
+    border-collapse: collapse;
+    table-layout: fixed; /* บังคับความกว้างแต่ละเซลล์ให้เท่า ๆ กัน */
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    border: 1px solid #000;
+    word-wrap: break-word; /* ตัดข้อความเมื่อเกินความกว้าง */
+}
+
+.first-cell {
+    background-color: #d4e157; /* สีเขียวอ่อน */
+    width: 50%;
+}
+
+.second-cell {
+    background-color: #ffccbc; /* สีชมพูอ่อน */
+    width: 50%;
+}
