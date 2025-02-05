@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piscine Web</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* จัดเรียงเป็นแนวตั้ง */
+            justify-content: flex-start; /* ให้เนื้อหาเริ่มจากด้านบน */
+            align-items: center; /* จัดกึ่งกลางแนวนอน */
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 50px;
+            margin-top: 20px; /* เพิ่มระยะห่างด้านบน */
+        }
+        .image-container {
+            display: flex;
+            justify-content: center; /* จัดให้อยู่กึ่งกลาง */
+            gap: 20px; /* ระยะห่างระหว่างรูป */
+            margin-top: 20px; /* ระยะห่างจาก h1 */
+        }
+        .picture {
+            max-width: 400px; /* จำกัดขนาดรูป */
+            height: 300px;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Piscine Web</h1>
+    <div class="image-container">
+        <!-- ทำให้รูปแรกเป็นลิงก์ -->
+        <a href="https://www.youtube.com/watch?v=INscMGmhmX4" target="_blank">
+            <img class="picture" src="http://citlali-supabase.bigblahaj.com/storage/v1/object/public/CITLALI_USER_PROFILE_PICTURE/public/citlali-login.jpg" alt="42 logo">
+        </a>
+        <img class="picture" src="http://citlali-supabase.bigblahaj.com/storage/v1/object/public/CITLALI_USER_PROFILE_PICTURE/public/citlali-register-email/password.jpg" alt="42 logo">
+    </div>
+</body>
+</html>
