@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 06: Responsive</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        table {
+            width: 100%;
+            height: 100vh; /* ทำให้ตารางคลุมทั้งหน้าจอในแนวตั้ง */
+            border-collapse: collapse;
+            table-layout: fixed; /* บังคับให้แต่ละเซลล์แบ่งพื้นที่เท่า ๆ กัน */
+        }
+        td {
+            text-align: center;
+            vertical-align: middle;
+            font-size: 18px;
+            border: 1px solid #000;
+            word-wrap: break-word; /* ตัดบรรทัดเมื่อข้อความยาวเกิน */
+        }
+        .first-cell {
+            background-color: #d4e157; /* สีเขียวอ่อน */
+            width: 50%; /* ครึ่งหนึ่งของตาราง */
+        }
+        .second-cell {
+            background-color: #ffccbc; /* สีชมพูอ่อน */
+            width: 50%; /* ครึ่งหนึ่งของตาราง */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="first-cell">First cell</td>
+            <td class="second-cell">Second cell</td>
+        </tr>
+    </table>
+</body>
+</html>
