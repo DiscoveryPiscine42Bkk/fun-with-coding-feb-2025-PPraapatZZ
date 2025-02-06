@@ -13,7 +13,7 @@
 
         document.getElementById("changeColorBtn").addEventListener("click", function() {
             // เปลี่ยนสีพื้นหลังแบบสุ่ม
-            document.body.style.backgroundColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+            document.body.style.backgroundColor = "#" + Math.floor(Math.random() * 255 * 255 * 255).toString(16);
 
             scaleFactor += 0.1;
             this.style.transform = `scale(${scaleFactor})`;
