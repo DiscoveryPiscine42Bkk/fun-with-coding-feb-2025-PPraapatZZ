@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#changeBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

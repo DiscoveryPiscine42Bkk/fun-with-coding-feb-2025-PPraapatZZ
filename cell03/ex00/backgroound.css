@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #f7d9d9;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transform-origin: top left;
+    border: 1px solid #000;
+}

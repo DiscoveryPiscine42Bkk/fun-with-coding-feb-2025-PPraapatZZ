@@ -54,18 +54,19 @@ body {
 }
 
 .contact-btn {
-    display: block;
+    display: flex;
+    justify-content: center; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้ข้อความอยู่ตรงกลางแนวตั้ง */
     width: 100%;
-    text-align: center;
-    padding: 15px;
+    height: 50px; /* กำหนดความสูงให้ชัดเจน */
     background: black;
     color: white;
     font-size: 16px;
     font-weight: bold;
-    text-decoration: none;  /* ลบขีดเส้นใต้ */
+    text-decoration: none; 
     border-radius: 0;
-    
 }
+
 
 .contact-btn:hover {
     background: #333;
