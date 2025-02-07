@@ -11,8 +11,8 @@ const form = () => {
 
     async function getData() {
       try {
-        const response = await fetch("mail.php", {
-          method: "POST",
+        const response = await fetch(form.action, {
+          method: form.method,
           body: formData,
         });
         if (!response.ok) {
